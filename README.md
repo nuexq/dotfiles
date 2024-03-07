@@ -48,3 +48,19 @@ stow .
   <tr><td>zsh-syntax-highlighting</td><td>plugin</td></tr>
   <tr><td>fzf</td><td>plugin</td></tr></table>
 </td></tr></table>
+
+## Keybindings
+#### tmux
+> [!NOTE]
+> i use ```h``` ```j``` ```k``` ```l``` (vim style) to move on tmux, i will name it (move)
+
+| Keys | Action |
+| :--  | :-- |
+| <kbd>Alt</kbd> + <kbd>move</kbd> | switch pens
+| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>move</kbd> | resize pens
+| <kbd>prefix</kbd> + <kbd>{ or }</kbd> | change pen place
+| <kbd>prefix</kbd> + <kbd>[</kbd> | enter copy mode
+| ```on copy mode``` <kbd>y</kbd> | copy selection and cancel
+| ```on copy mode``` <kbd>v</kbd> | begin selection
+| <kbd>prefix</kbd> + <kbd>z</kbd> | toggle pen to full window
+| <kbd>prefix</kbd> + <kbd>!</kbd> | make pen a full window
