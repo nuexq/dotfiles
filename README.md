@@ -13,7 +13,7 @@
 > Please see [Dependecies](#Dependecies)
  
 ```bash
-git clone  https://github.com/No0ne003/dotfiles
+git clone https://github.com/No0ne003/dotfiles.git
 cd dotfiles
 # manually
 cp -r .config/* ~/.config
