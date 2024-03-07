@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias ls='lsd'
 alias la='ls -a'
-alias tty-clock='tty-clock -s -c -C 0 -D'
+alias tty-clock='tty-clock -c -C 0 -D'
 alias cmatrix='cmatrix -C magenta -u 6'
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
