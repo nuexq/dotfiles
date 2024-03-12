@@ -36,7 +36,6 @@ local plugins = {
         "htmx-lsp",
         "css-lsp",
         "rust-analyzer",
-        "ast-grep"
       }
     }
   },
