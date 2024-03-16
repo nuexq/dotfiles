@@ -35,12 +35,8 @@ function command_not_found_handler {
     return 127
 }
 
-# Detect the AUR wrapper
-if pacman -Qi yay &>/dev/null ; then
-   aurhelper="yay"
-elif pacman -Qi paru &>/dev/null ; then
-   aurhelper="paru"
-fi
+# AUR wrapper
+aurhelper="paru"
 
 function in {
     local pkg="$1"
