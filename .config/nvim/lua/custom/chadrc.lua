@@ -2,8 +2,8 @@
 local M = {}
 
 M.ui = {
-  theme_toggle = { "catppuccin", "gruvbox" },
-  theme = 'catppuccin',
+  theme_toggle = { "gruvbox", "gruvbox" },
+  theme = 'gruvbox',
   transparency = true,
 }
 M.plugins = "custom.plugins"
