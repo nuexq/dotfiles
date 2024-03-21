@@ -226,50 +226,6 @@
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
-    "custom/wallchange": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰆊 switch wallpaper",
-        "on-click": "/home/No0ne/.config/hyprdots/scripts/swwwallpaper.sh -n",
-        "on-click-right": "/home/No0ne/.config/hyprdots/scripts/swwwallpaper.sh -p",
-        "on-click-middle": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/swwwallselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
-    "custom/theme": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰟡 switch theme",
-        "on-click": "/home/No0ne/.config/hyprdots/scripts/themeswitch.sh -n",
-        "on-click-right": "/home/No0ne/.config/hyprdots/scripts/themeswitch.sh -p",
-        "on-click-middle": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/themeselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
-    "custom/wbar": {
-        "format": "{}", //    //
-        "rotate": 0,
-        "exec": "echo ; echo  switch bar //  dock",
-        "on-click": "/home/No0ne/.config/hyprdots/scripts/wbarconfgen.sh n",
-        "on-click-right": "/home/No0ne/.config/hyprdots/scripts/wbarconfgen.sh p",
-        "on-click-middle": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/quickapps.sh kitty firefox spotify code dolphin",
-        "interval" : 86400,
-        "tooltip": true
-    },
-
-    "custom/cliphist": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰅇 clipboard history",
-        "on-click": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/cliphist.sh c",
-        "on-click-right": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/cliphist.sh d",
-        "on-click-middle": "sleep 0.1 && /home/No0ne/.config/hyprdots/scripts/cliphist.sh w",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
     "custom/power": {
         "format": "{}",
         "rotate": 0,
