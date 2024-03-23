@@ -2,10 +2,10 @@
 
 <p align="center">
   <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <img src='https://img.shields.io/badge/tmux-g?style=for-the-badge&logo=tmux&color=%23363a4f'>
-  <img src='https://img.shields.io/badge/zsh-g?style=for-the-badge&logo=zsh&color=%23363a4f'>
-  <img src='https://img.shields.io/badge/nvim-g?style=for-the-badge&logo=neovim&color=%23363a4f'>
 </p>
+
+> [!IMPORTANT]
+> the README under dev 
 
 # installation
 
