@@ -7,48 +7,6 @@
 > [!IMPORTANT]
 > the README under dev 
 
-# installation
-
-> [!IMPORTANT]
-> Please see [Dependecies](#Dependecies)
- 
-```bash
-git clone https://github.com/No0ne003/dotfiles.git
-cd dotfiles
-# manually
-cp -r .config/* ~/.config
-cp .zshrc ~/.
-# using Stow
-stow .
-```
-
-## Dependecies
-<table><tr><td>
-  <code>s</code><br><code>h</code><br><code>e</code><br><code>l</code><br><code>l</code></td><td><table>
-  <tr><td>zsh</td><td>main shell</td></tr>
-  <tr><td>neovim</td><td>text editor</td></tr>
-  <tr><td>neofetch</td><td>beautiful sys info</td></tr></table>
-</td></tr></table>
-
-<table><tr><td>
-  <code>t</code><br><code>m</code><br><code>u</code><br><code>x</code><br></td><td><table>
-  <tr><td>catppuccin-tmux</td><td>theme</td></tr>
-  <tr><td>tmux yank</td><td>plugin</td></tr>
-  <tr><td>vim-tmux-navigator</td><td>plugin</td></tr>
-  <tr><td>Tmux sensible</td><td>settings</td></tr>
-  <tr><td>tmp</td><td>plugin manager</td></tr>
-  <tr><td>prefix</td><td><kbd>Ctrl</kbd> + <kbd>Space</kbd></td></table>
-</td></tr></table>
-
-<table><tr><td>
-  <code>z</code><br><code>s</code><br><code>h</code><br></td><td><table>
-  <tr><td>oh-my-zsh</td><td>zsh configuration manager</td></tr>
-  <tr><td>powerlevel10k</td><td>theme</td></tr>
-  <tr><td>zsh-autosuggestions</td><td>plugin</td></tr>
-  <tr><td>zsh-syntax-highlighting</td><td>plugin</td></tr>
-  <tr><td>fzf</td><td>plugin</td></tr></table>
-</td></tr></table>
-
 ## Keybindings
 #### tmux
 > [!NOTE]
