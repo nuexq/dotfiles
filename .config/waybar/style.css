@@ -109,7 +109,8 @@ tooltip {
 #custom-sr_end,
 #custom-rl_end,
 #custom-rr_end, 
-#custom-tomato {
+#custom-tomato,
+#custom-dijo {
     color: @fg;
     background: @bg;
     opacity: 1;
