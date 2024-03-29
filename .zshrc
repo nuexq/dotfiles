@@ -18,15 +18,6 @@ source $ZSH/oh-my-zsh.sh
 # AUR wrapper
 aurhelper="paru"
 
-function in {
-    local pkg="$1"
-    if pacman -Si "$pkg" &>/dev/null ; then
-        sudo pacman -S "$pkg"
-    else 
-        "$aurhelper" -S "$pkg"
-    fi
-}
-
 # Helpful aliases
 alias  c='clear' # clear terminal
 alias  l='eza -lh  --icons=auto' # long list
