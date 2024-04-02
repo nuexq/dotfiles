@@ -45,6 +45,9 @@ alias mkdir='mkdir -p'
 # Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
 alias ssh='kitten ssh'
 
+# alias
+alias tty-clock='tty-clock -c'
+
 # games
 alias stardew="~/./Document/games/StardewValley/start.sh"
 alias minecraft='java -jar ~/Document/games/TLauncher-2.899.jar'
