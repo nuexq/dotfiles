@@ -33,9 +33,9 @@ local plugins = {
         "tailwindcss-language-server",
         "prettierd",
         "html-lsp",
-        "htmx-lsp",
         "css-lsp",
         "rust-analyzer",
+        "lua-language-server",
       }
     }
   },
