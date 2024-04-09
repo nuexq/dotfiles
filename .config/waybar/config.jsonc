@@ -46,7 +46,6 @@
     "pulseaudio",
     "pulseaudio#microphone",
     "custom/updates",
-    "custom/keybindhint",
     "custom/dijo",
     "custom/r_end",
     "custom/l_end",
@@ -252,12 +251,6 @@
     "on-click": "/home/No0ne/.config/hyprdots/scripts/systemupdate.sh up",
     "interval": 86400, // once every day
     "tooltip": true,
-  },
-
-  "custom/keybindhint": {
-    "format": " ",
-    "rotate": 0,
-    "on-click": "Hyprdots show binds",
   },
 
   "tray": {
