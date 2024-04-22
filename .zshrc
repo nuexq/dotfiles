@@ -47,6 +47,7 @@ alias ssh='kitten ssh'
 
 # alias
 alias tty-clock='tty-clock -c'
+alias wlsunset='wlsunset -l 19.9 -L 116.3 -t 5000'
 
 # games
 alias stardew="~/./Document/games/StardewValley/start.sh"
