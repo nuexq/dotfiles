@@ -61,6 +61,7 @@ local plugins = {
   },
   {
     "christoomey/vim-tmux-navigator",
+    event = "VimEnter"
   },
 }
 return plugins
