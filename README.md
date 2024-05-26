@@ -3,9 +3,10 @@
 <p align="center">
   <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 </p>
-
-> [!IMPORTANT]
-> The README under devolopment
+<div>
+  <img src='https://pbs.twimg.com/media/GOgoPxwWAAAFESi?format=jpg&name=large' alt='screenshot' />
+  <img src='https://pbs.twimg.com/media/GOgqwQvXkAAa_KE?format=jpg&name=large' alt='screenshot' />
+</div>
 
 ## Keybindings
 
