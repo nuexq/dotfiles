@@ -49,10 +49,6 @@ alias ssh='kitten ssh'
 alias tty-clock='tty-clock -c'
 alias wlsunset='wlsunset -l 31.62867419.9 -L -7.992047 -T 6500 -t 4000'
 
-# games
-alias stardew="~/./Document/games/StardewValley/start.sh"
-alias minecraft='java -jar ~/Document/games/TLauncher-2.899.jar'
-
 #Star Ship
 # eval "$(starship init zsh)"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
