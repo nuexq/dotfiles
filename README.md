@@ -1,14 +1,35 @@
-# My Dotfiles
+<h1 >My Dotfiles</h1>
 
-<p align="center">
-  <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-</p>
 <div>
   <img src='https://pbs.twimg.com/media/GOgoPxwWAAAFESi?format=jpg&name=large' alt='screenshot' />
   <img src='https://pbs.twimg.com/media/GOgqwQvXkAAa_KE?format=jpg&name=large' alt='screenshot' />
 </div>
 
-## Keybindings
+<p align="center">
+  <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+ <a href="https://github.com/Matt-FTW/dotfiles"><img alt="Size" src="https://img.shields.io/github/repo-size/No0ne003/dotfiles?style=for-the-badge&logo=discord&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41"></a>
+  <a href="https://github.com/Matt-FTW/dotfiles/commits/main/"><img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/m/No0ne003/dotfiles/main?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"/></a>
+</p>
+
+## ⚙️ System Info
+
+The rice codename is **Artemis** 🏹, named after the Greek goddess of the hunt and the wild.
+
+- **OS**: [Arch Linux](https://archlinux.org/) :boom:
+- **WM**: [hyprland](https://hyprland.org/) :window:
+- **Shell**: [zsh](https://www.zsh.org/) :shell:
+- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/) :cat:
+- **Panel**: [waybar](https://github.com/Alexays/Waybar) :shaved_ice:
+- **Text Editor**: [neovim](https://neovim.io/) :keyboard:
+- **App Launcher**: [rofi](https://davatorium.github.io/rofi/) :rocket:
+- **File Manager**: [Dolphin](https://apps.kde.org/dolphin/) :open_file_folder:
+- **Browser**: [thorium](https://thorium.rocks/) :globe_with_meridians:
+- **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) :bell:
+- **Colorscheme**: [pywalll](https://github.com/dylanaraps/pywal) :art:
+
+---
+
+## ⌨️ Keybindings
 
 ### tmux
 
