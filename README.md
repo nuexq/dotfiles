@@ -28,7 +28,8 @@
 
 ## ⌨️ Keybindings
 
-### tmux
+<details>
+  <summary style='font-size: 18px; color: white; font-weight: bold;'>tmux</summary>
 
 > [!NOTE]
 > i use `h` `j` `k` `l` (vim style) to move on tmux, i will name it (move)
@@ -44,7 +45,10 @@
 | <kbd>prefix</kbd> + <kbd>z</kbd>                    | toggle pen to full window |
 | <kbd>prefix</kbd> + <kbd>!</kbd>                    | make pen a full window    |
 
-### hyprland
+</details>
+
+<details>
+  <summary style='font-size: 18px; color: white; font-weight: bold;'>hyprland</summary>
 
 | Keys                                                                                                     | Action                                               |
 | :------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
@@ -89,3 +93,5 @@
 | <kbd>Super</kbd> + <kbd>S</kbd>                                                                          | Toggle to special workspace                          |
 | <kbd>Super</kbd> + <kbd>D</kbd>                                                                          | Toggle focused window split                          |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd>                                                     | Move focused window to a workspace silently          |
+
+</details>
