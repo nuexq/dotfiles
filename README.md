@@ -12,8 +12,6 @@
 
 ## ⚙️ System Info
 
-The rice codename is **Artemis** 🏹, named after the Greek goddess of the hunt and the wild.
-
 - **OS**: [Arch Linux](https://archlinux.org/) 
 - **WM**: [hyprland](https://hyprland.org/) 
 - **Shell**: [zsh](https://www.zsh.org/) 
