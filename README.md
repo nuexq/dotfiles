@@ -96,8 +96,6 @@
 
 </details>
 
----
-
 ## :tada: <samp>Credits</samp>
 Big thanks for :
 - [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
