@@ -95,3 +95,11 @@
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd>                                                     | Move focused window to a workspace silently          |
 
 </details>
+
+---
+
+## :tada: <samp>Credits</samp>
+Big thanks for :
+- [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
+- [Matt-FTW README](https://github.com/Matt-FTW/dotfiles/) for helping me with ideas for README from her README.
+- [NvChad](https://nvchad.com/) for the awesome nvim config.
