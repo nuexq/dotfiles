@@ -1,16 +1,35 @@
-# My Dotfiles
+<h1 align='center'>My Dotfiles</h1>
 
-<p align="center">
-  <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-</p>
 <div>
   <img src='https://pbs.twimg.com/media/GOgoPxwWAAAFESi?format=jpg&name=large' alt='screenshot' />
   <img src='https://pbs.twimg.com/media/GOgqwQvXkAAa_KE?format=jpg&name=large' alt='screenshot' />
 </div>
+<p align="center">
+  <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+ <a href="https://github.com/Matt-FTW/dotfiles"><img alt="Size" src="https://img.shields.io/github/repo-size/No0ne003/dotfiles?style=for-the-badge&logo=discord&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41"></a>
+  <a href="https://github.com/Matt-FTW/dotfiles/commits/main/"><img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/m/No0ne003/dotfiles/main?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"/></a>
+</p>
 
-## Keybindings
+## ⚙️ System Info
 
-### tmux
+- **OS**: [Arch Linux](https://archlinux.org/) 
+- **WM**: [hyprland](https://hyprland.org/) 
+- **Shell**: [zsh](https://www.zsh.org/) 
+- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/) 
+- **Panel**: [waybar](https://github.com/Alexays/Waybar) 
+- **Text Editor**: [neovim](https://neovim.io/) 
+- **App Launcher**: [rofi](https://davatorium.github.io/rofi/) 
+- **File Manager**: [Dolphin](https://apps.kde.org/dolphin/) 
+- **Browser**: [thorium](https://thorium.rocks/) 
+- **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) 
+- **Colorscheme**: [pywalll](https://github.com/dylanaraps/pywal)
+
+---
+
+## ⌨️ Keybindings
+
+<details>
+  <summary style='font-size: 18px; color: white; font-weight: bold;'>tmux</summary>
 
 > [!NOTE]
 > i use `h` `j` `k` `l` (vim style) to move on tmux, i will name it (move)
@@ -26,12 +45,10 @@
 | <kbd>prefix</kbd> + <kbd>z</kbd>                    | toggle pen to full window |
 | <kbd>prefix</kbd> + <kbd>!</kbd>                    | make pen a full window    |
 
-### nvim
+</details>
 
-> [!TIP]
-> See the nvchad docs
-
-### hyprland
+<details>
+  <summary style='font-size: 18px; color: white; font-weight: bold;'>hyprland</summary>
 
 | Keys                                                                                                     | Action                                               |
 | :------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
@@ -76,3 +93,11 @@
 | <kbd>Super</kbd> + <kbd>S</kbd>                                                                          | Toggle to special workspace                          |
 | <kbd>Super</kbd> + <kbd>D</kbd>                                                                          | Toggle focused window split                          |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>[0-9]</kbd>                                                     | Move focused window to a workspace silently          |
+
+</details>
+
+## :tada: <samp>Credits</samp>
+Big thanks for :
+- [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
+- [Matt-FTW README](https://github.com/Matt-FTW/dotfiles/) for helping me with ideas for README from her README.
+- [NvChad](https://nvchad.com/) for the awesome nvim config.
