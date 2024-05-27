@@ -1,7 +1,7 @@
 <h1 align='center'>My Dotfiles</h1>
 
 <div>
-  <img src='https://pbs.twimg.com/media/GOgoPxwWAAAFESi?format=jpg&name=large' alt='screenshot' />
+  <img src='https://pbs.twimg.com/media/GOlx4bJX0AER0Gr?format=jpg&name=large' alt='screenshot' />
   <img src='https://pbs.twimg.com/media/GOgqwQvXkAAa_KE?format=jpg&name=large' alt='screenshot' />
 </div>
 <p align="center">
