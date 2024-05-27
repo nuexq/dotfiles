@@ -49,6 +49,7 @@ alias ssh='kitten ssh'
 alias tty-clock='tty-clock -c'
 alias wlsunset='wlsunset -l 31.62867419.9 -L -7.992047 -T 6500 -t 4000'
 alias nv='nvim -c Nvdash'
+alias cmatrix='cmatrix -b -a -u 5'
 
 #Star Ship
 # eval "$(starship init zsh)"
