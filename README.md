@@ -44,11 +44,6 @@
 | <kbd>prefix</kbd> + <kbd>z</kbd>                    | toggle pen to full window |
 | <kbd>prefix</kbd> + <kbd>!</kbd>                    | make pen a full window    |
 
-### nvim
-
-> [!TIP]
-> See the nvchad docs
-
 ### hyprland
 
 | Keys                                                                                                     | Action                                               |
