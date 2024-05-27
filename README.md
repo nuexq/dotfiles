@@ -14,17 +14,17 @@
 
 The rice codename is **Artemis** 🏹, named after the Greek goddess of the hunt and the wild.
 
-- **OS**: [Arch Linux](https://archlinux.org/) :boom:
-- **WM**: [hyprland](https://hyprland.org/) :window:
-- **Shell**: [zsh](https://www.zsh.org/) :shell:
-- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/) :cat:
-- **Panel**: [waybar](https://github.com/Alexays/Waybar) :shaved_ice:
-- **Text Editor**: [neovim](https://neovim.io/) :keyboard:
-- **App Launcher**: [rofi](https://davatorium.github.io/rofi/) :rocket:
-- **File Manager**: [Dolphin](https://apps.kde.org/dolphin/) :open_file_folder:
-- **Browser**: [thorium](https://thorium.rocks/) :globe_with_meridians:
-- **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) :bell:
-- **Colorscheme**: [pywalll](https://github.com/dylanaraps/pywal) :art:
+- **OS**: [Arch Linux](https://archlinux.org/) 
+- **WM**: [hyprland](https://hyprland.org/) 
+- **Shell**: [zsh](https://www.zsh.org/) 
+- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/) 
+- **Panel**: [waybar](https://github.com/Alexays/Waybar) 
+- **Text Editor**: [neovim](https://neovim.io/) 
+- **App Launcher**: [rofi](https://davatorium.github.io/rofi/) 
+- **File Manager**: [Dolphin](https://apps.kde.org/dolphin/) 
+- **Browser**: [thorium](https://thorium.rocks/) 
+- **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) 
+- **Colorscheme**: [pywalll](https://github.com/dylanaraps/pywal)
 
 ---
 
