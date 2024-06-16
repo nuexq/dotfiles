@@ -31,13 +31,11 @@
 <details>
   <summary style='font-size: 18px; color: white; font-weight: bold;'>tmux</summary>
 
-> [!NOTE]
-> i use `h` `j` `k` `l` (vim style) to move on tmux, i will name it (move)
 
 | Keys                                                | Action                    |
 | :-------------------------------------------------- | :------------------------ |
-| <kbd>Ctrl</kbd> + <kbd>move</kbd>                   | switch pens               |
-| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>move</kbd> | resize pens               |
+| <kbd>Ctrl</kbd> + <kbd>{h,j,k,l}</kbd>                   | switch pens               |
+| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>{h,j,k,l}</kbd> | resize pens               |
 | <kbd>prefix</kbd> + <kbd>{ or }</kbd>               | change pen place          |
 | <kbd>prefix</kbd> + <kbd>[</kbd>                    | enter copy mode           |
 | `on copy mode` <kbd>y</kbd>                         | copy selection and cancel |
