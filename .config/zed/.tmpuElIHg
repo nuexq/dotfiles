@@ -1,0 +1,20 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":206,"type":"Setting","setting":"theme","value":"One Light"}
+{"signed_in":false,"milliseconds_since_first_event":206,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"catppuccin","version":"0.2.8"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"lua","version":"0.0.3"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"one-dark-pro","version":"0.0.3"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"prisma","version":"0.0.3"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"tokyo-night","version":"0.2.0"}
+{"signed_in":false,"milliseconds_since_first_event":711,"type":"App","operation":"open node project"}
+{"signed_in":false,"milliseconds_since_first_event":716,"type":"App","operation":"open pnpm project"}
+{"signed_in":false,"milliseconds_since_first_event":156604,"type":"Editor","operation":"open","file_extension":"prisma","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":239770,"type":"Memory","memory_in_bytes":322179072,"virtual_memory_in_bytes":39284092928}
+{"signed_in":false,"milliseconds_since_first_event":239770,"type":"Cpu","usage_as_percentage":24.355204,"core_count":4}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Edit","duration":8534,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":27276,"type":"Edit","duration":3725,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":85798,"type":"Memory","memory_in_bytes":330174464,"virtual_memory_in_bytes":39287468032}
+{"signed_in":false,"milliseconds_since_first_event":85798,"type":"Cpu","usage_as_percentage":10.9586735,"core_count":4}
+{"signed_in":false,"milliseconds_since_first_event":88525,"type":"Edit","duration":32515,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":264157,"type":"Edit","duration":54867,"environment":"terminal"}
