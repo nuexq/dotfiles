@@ -3,7 +3,7 @@
   "ui_font_size": 14,
   "buffer_font_size": 11,
   "buffer_font_family": "FiraCode Nerd Font Mono",
-  "theme": "Tokyo Night",
+  "theme": "Catppuccin Mocha",
   "autosave": "on_focus_change",
   "tab_size": 2
 }
