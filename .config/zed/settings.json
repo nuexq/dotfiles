@@ -27,10 +27,12 @@
   "calls": {
     "mute_on_join": true
   },
+  "relative_line_numbers": true,
+  "tab_bar": {
+    "show": true
+  },
   "scrollbar": {
-    "show": "auto",
-    "git_diff": true,
-    "selections": true
+    "show": "never"
   },
   "relative_line_numbers": true,
   "seed_search_query_from_cursor": "always",
@@ -85,11 +87,11 @@
   "remove_trailing_whitespace_on_save": true,
   "extend_comment_on_newline": true,
   "ensure_final_newline_on_save": false,
-  "format_on_save": "off",
+  "format_on_save": "on",
   "formatter": "auto",
   "preferred_line_length": 160,
   "hard_tabs": false,
-    "telemetry": {
+  "telemetry": {
     "diagnostics": true,
     "metrics": true
   },
@@ -97,16 +99,7 @@
   "diagnostics": {
     "include_warnings": true
   },
-  "file_scan_exclusions": [
-    "**/.git",
-    "**/.svn",
-    "**/.hg",
-    "**/CVS",
-    "**/.DS_Store",
-    "**/Thumbs.db",
-    "**/.classpath",
-    "**/.settings"
-  ],
+  "file_scan_exclusions": ["**/.git", "**/.svn", "**/.hg", "**/CVS", "**/.DS_Store", "**/Thumbs.db", "**/.classpath", "**/.settings"],
   "git": {
     "git_gutter": "tracked_files"
   },
@@ -144,8 +137,9 @@
   "elixir": {
     "lsp": "elixir_ls"
   },
-  "indent_guides": {
-    "enabled": true
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
   },
   "languages": {
     "Python": {
@@ -193,15 +187,11 @@
     }
   },
   "lsp": {
-    // Specify the LSP name as a key here.
-    // "rust-analyzer": {
-    //     //These initialization options are merged into Zed's defaults
-    //     "initialization_options": {
-    //         "checkOnSave": {
-    //             "command": "clippy"
-    //         }
-    //     }
-    // }
+    "tailwindcss-language-server": {
+      "settings": {
+        "classAttributes": ["class", "className", "ngClass", "styles"]
+      }
+    }
   },
   "vim": {
     "use_system_clipboard": "always",
