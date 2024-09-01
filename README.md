@@ -99,3 +99,4 @@ Big thanks for :
 - [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
 - [Matt-FTW README](https://github.com/Matt-FTW/dotfiles/) for helping me with ideas for README from her README.
 - [NvChad](https://nvchad.com/) for the awesome nvim config.
+- [Tnixc](https://github.com/Tnixc/edo) for the edo theme (my zed theme)
