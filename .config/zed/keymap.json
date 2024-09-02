@@ -93,8 +93,7 @@
       // Show project panel with current file
       "space e": "pane::RevealInProjectPanel",
       // new center terminal
-      "space t c": "workspace::NewCenterTerminal",
-      "space t": "workspace::OpenInTerminal"
+      "space t c": "workspace::NewCenterTerminal"
     }
   },
   // Empty pane, set of keybindings that are available when there is no active editor
