@@ -34,7 +34,6 @@
   "scrollbar": {
     "show": "never"
   },
-  "relative_line_numbers": true,
   "seed_search_query_from_cursor": "always",
   "inlay_hints": {
     "enabled": false,
@@ -88,7 +87,11 @@
   "extend_comment_on_newline": true,
   "ensure_final_newline_on_save": false,
   "format_on_save": "on",
-  "formatter": "auto",
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
   "preferred_line_length": 160,
   "hard_tabs": false,
   "telemetry": {
