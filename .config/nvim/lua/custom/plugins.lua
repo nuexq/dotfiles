@@ -20,6 +20,8 @@ local plugins = {
         "tmux",
         "json",
         "rust",
+        "cpp",
+        "c"
       }
       return opts
     end
@@ -36,6 +38,8 @@ local plugins = {
         "css-lsp",
         "rust-analyzer",
         "lua-language-server",
+        "clangd",
+        "clang-format"
       }
     }
   },
