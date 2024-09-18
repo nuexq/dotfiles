@@ -1,7 +1,7 @@
 * {
   border: none;
   border-radius: 0px;
-  font-family: "JetBrainsMono Nerd Font mono";
+  font-family: "JetBrainsMono Nerd Font";
   font-size: 11px;
   min-height: 10px;
 }
@@ -14,7 +14,7 @@
 @define-color textcolor @cursor;
 
 window#waybar {
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   font-size: 12px;
 }
 
