@@ -1,21 +1,29 @@
-require "core"
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.opt.number = true
+vim.opt.relativenumber = true
 
-local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
-
-if custom_init_path then
-  dofile(custom_init_path)
-end
-
-require("core.utils").load_mappings()
-
-local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
-
--- bootstrap lazy.nvim!
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-  require("core.bootstrap").gen_chadrc_template()
-  require("core.bootstrap").lazy(lazypath)
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
 end
-
-dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
-require "plugins"
+
+local plugins = {
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+}
+local opts = {}
+
+require("lazy").setup(plugins, opts)
+
+require("catppuccin").setup()
+vim.cmd.colorscheme "catppuccin"
