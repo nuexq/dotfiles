@@ -29,7 +29,7 @@ return {
 					"clangd", -- clangd
 					"bashls", -- Bash LSP
 					"jsonls", -- JSON LSP for better support with JSON files
-					"yaml_ls", -- YAML LSP for YAML files
+					"yamlls", -- YAML LSP for YAML files
 					"marksman", -- Markdown LSP for better markdown support
 				},
 			})
