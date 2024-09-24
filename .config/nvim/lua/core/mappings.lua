@@ -79,6 +79,12 @@ wk.add({
 				icon = { icon = "", color = "orange" },
 			},
 			{
+				"<leader>fk",
+				"<cmd>Telescope keymaps<cr>",
+				desc = "Find keymaps",
+				icon = { icon = "", color = "purple" },
+			},
+			{
 				"<leader>fo",
 				"<cmd>Telescope workspaces<cr>",
 				desc = "Open workspace",
@@ -235,7 +241,7 @@ wk.add({
 	{
 		mode = "i",
 		{ "jk", "<ESC>", desc = "Quick escape to normal mode" },
-    { "<A-j>", "<Esc><cmd>m .+1<cr>==gi", desc = "Move line down" },
+		{ "<A-j>", "<Esc><cmd>m .+1<cr>==gi", desc = "Move line down" },
 		{ "<A-k>", "<Esc><cmd>m .-2<cr>==gi", desc = "Move line up" },
 	},
 
@@ -243,11 +249,11 @@ wk.add({
 	{
 		mode = "v",
 		{ "p", '"_dP', desc = "Paste without yanking" },
-    { "<", "<gv", desc = "Indent left and reselect" },
+		{ "<", "<gv", desc = "Indent left and reselect" },
 		{ ">", ">gv", desc = "Indent right and reselect" },
 		{ "m", "<cmd>'<,'>MCvisual<cr>", desc = "Create multiple cursors (visual)" },
 		{
-      "<A-k>",
+			"<A-k>",
 			function()
 				require("moveline").block_up()
 			end,
