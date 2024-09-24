@@ -258,6 +258,13 @@ return {
 		},
 		dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" },
 	},
+	{
+		"szw/vim-maximizer",
+		event = "VeryLazy",
+		keys = {
+			{ "<leader>sm", "<CMD>MaximizerToggle<CR>", desc = "Toggle Maximizer" },
+		},
+	},
 
 	-- Syntax and Language Support
 	{
