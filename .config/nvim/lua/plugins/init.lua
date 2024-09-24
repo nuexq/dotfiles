@@ -182,7 +182,7 @@ return {
 		"akinsho/toggleterm.nvim",
 		event = "VeryLazy",
 		version = "*",
-		opts = { open_mapping = [[<M-l>]] },
+		opts = { open_mapping = [[<leader>t]] },
 	},
 	{
 		"natecraddock/workspaces.nvim",

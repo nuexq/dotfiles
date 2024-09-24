@@ -32,6 +32,15 @@ wk.add({
 		{ "<c-left>", "<cmd>vertical resize +2<cr>", desc = "decrease window width" },
 		{ "<c-right>", "<cmd>vertical resize -2<cr>", desc = "increase window width" },
 
+		-- Split Window
+		{
+			group = "Split Window",
+			{ "<leader>s", desc = "Split window" },
+			{ "<leader>sv", "<C-w>v", desc = "Split window vertically" },
+			{ "<leader>sh", "<C-w>s", desc = "Split window horizontally" },
+			{ "<leader>se", "<C-w>=", desc = "Make splits equal size" },
+		},
+
 		-- leader mappings
 		{
 			"<leader>h",
@@ -272,8 +281,8 @@ wk.add({
 	{
 		mode = { "n", "v", "i" },
 		{ "<M-w>", "<cmd>Bdelete<cr>", desc = "Close current buffer" },
-		{ "<M-S-Tab>", "<cmd>BufferLineCyclePrev<cr>", desc = "Switch to previous buffer" },
-		{ "<M-Tab>", "<cmd>BufferLineCycleNext<cr>", desc = "Switch to next buffer" },
+		{ "<M-h>", "<cmd>BufferLineCyclePrev<cr>", desc = "Switch to previous buffer" },
+		{ "<M-l>", "<cmd>BufferLineCycleNext<cr>", desc = "Switch to next buffer" },
 		{ "<D-a>", "<esc>ggVG", desc = "Select all text" },
 	},
 })
