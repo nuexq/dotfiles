@@ -10,6 +10,13 @@ return {
 		end,
 	},
 	{
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    config = function()
+      require("gruvbox").setup({})
+    end,
+  },
+  {
 		"goolord/alpha-nvim",
 		config = function()
 			require("plugins.configs.ui.alpha")
@@ -182,7 +189,7 @@ return {
 		"akinsho/toggleterm.nvim",
 		event = "VeryLazy",
 		version = "*",
-		opts = { open_mapping = [[<leader>t]] },
+		opts = { open_mapping = [[<M-o>]] },
 	},
 	{
 		"natecraddock/workspaces.nvim",

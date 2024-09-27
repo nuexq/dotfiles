@@ -1,5 +1,4 @@
 local actions = require("telescope.actions")
-local builtin = require("telescope.builtin")
 require("telescope").setup({
   defaults = {
     layout_config = {
