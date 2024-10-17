@@ -32,7 +32,8 @@ alias pl='$aurhelper -Qs' # list installed package
 alias pa='$aurhelper -Ss' # list availabe package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
-alias vc='code --ozone-platform-hint=wayland --disable-gpu' # gui code editor
+alias z='zeditor' # gui code editor
+alias nv='nvim' # nvim
 
 # Handy change dir shortcuts
 alias ..='cd ..'
@@ -49,12 +50,8 @@ alias ssh='kitten ssh'
 
 # alias
 alias tty-clock='tty-clock -c'
-alias nv='nvim -c Nvdash'
 alias cmatrix='cmatrix -b -a -u 5'
 
-#Star Ship
-# eval "$(starship init zsh)"
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export NVM_DIR="$HOME/.nvm"
