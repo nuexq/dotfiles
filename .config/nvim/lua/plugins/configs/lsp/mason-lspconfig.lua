@@ -12,6 +12,5 @@ require("mason-lspconfig").setup({
     "jsonls",          -- JSON LSP
     "yamlls",          -- YAML LSP
     "marksman",        -- Markdown LSP
-    "eslint_d"
   },
 })
