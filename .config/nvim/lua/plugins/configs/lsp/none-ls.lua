@@ -7,6 +7,8 @@ null_ls.setup({
     null_ls.builtins.formatting.clang_format.with({
       filetypes = { "c", "cpp", "cc", "cxx", "h", "hpp" },
     }),
+    null_ls.builtins.diagnostics.mypy,
+    null_ls.builtins.formatting.black,
     require("none-ls.diagnostics.eslint_d"),
   },
 })
