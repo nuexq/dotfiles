@@ -360,6 +360,17 @@ return {
 			require("plugins.configs.lsp.none-ls")
 		end,
 	},
+  {
+    "simrat39/rust-tools.nvim",
+    ft = "rust",
+    dependencies = "neovim/nvim-lspconfig",
+    opts = function()
+      return require("plugins.configs.lsp.rust-tools")
+    end,
+    config = function(_, opts)
+      require("rust-tools").setup(opts)
+    end
+  },
 
 	-- Completion
 	{
