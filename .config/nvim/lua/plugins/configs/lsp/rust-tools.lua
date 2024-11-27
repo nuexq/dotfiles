@@ -5,13 +5,6 @@ local options = {
 	server = {
 		on_attach = on_attach,
 		capabilities = capabilities,
-		settings = {
-			["rust-analyzer"] = {
-				checkOnSave = {
-					command = "clippy", -- Use Clippy for linting
-				},
-			},
-		},
 	},
 }
 
