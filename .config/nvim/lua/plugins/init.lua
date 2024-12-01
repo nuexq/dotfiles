@@ -263,6 +263,20 @@ return {
 
 	-- Miscellaneous
 	{
+		"declancm/cinnamon.nvim",
+		version = "*", -- use latest release
+		opts = {
+			keymaps = {
+				basic = true,
+			},
+			delay = 1,
+			max_delta = {
+				column = 1,
+				time = 300,
+			},
+		},
+	},
+	{
 		"vyfor/cord.nvim",
 		build = "./build || .\\build",
 		event = "VeryLazy",
