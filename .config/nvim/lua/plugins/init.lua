@@ -141,6 +141,12 @@ return {
 	},
 
 	-- Utility
+  {
+		"vyfor/cord.nvim",
+		build = "./build || .\\build",
+		event = "VeryLazy",
+		opts = {},
+	},
 	{
 		"nullishamy/autosave.nvim",
 		event = "VeryLazy",
@@ -324,7 +330,6 @@ return {
 	},
 
 	-- LSP
-
 	{
 		"williamboman/mason.nvim",
 		config = function()
