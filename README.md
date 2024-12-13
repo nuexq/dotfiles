@@ -19,10 +19,10 @@
 - **Panel**: [waybar](https://github.com/Alexays/Waybar) 
 - **Text Editor**: [neovim](https://neovim.io/) 
 - **App Launcher**: [rofi](https://davatorium.github.io/rofi/) 
-- **File Manager**: [Dolphin](https://apps.kde.org/dolphin/) 
+- **File Manager**: [Yazi](https://github.com/sxyazi/yazi) 
 - **Browser**: [thorium](https://thorium.rocks/) 
 - **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) 
-- **Colorscheme**: [pywalll](https://github.com/dylanaraps/pywal)
+- **Colorscheme**: [edo](https://github.com/tnixc/edo)/[catppuccin](https://github.com/catppuccin)
 
 ---
 
@@ -98,5 +98,4 @@
 Big thanks for :
 - [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
 - [Matt-FTW README](https://github.com/Matt-FTW/dotfiles/) for helping me with ideas for README from her README.
-- [NvChad](https://nvchad.com/) for the awesome nvim config.
 - [Tnixc](https://github.com/Tnixc/edo) for the edo theme (my zed theme)
