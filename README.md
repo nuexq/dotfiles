@@ -1,8 +1,8 @@
 <h1 align='center'>My Dotfiles</h1>
 
 <div>
-  <img src='https://pbs.twimg.com/media/GOlx4bJX0AER0Gr?format=jpg&name=large' alt='screenshot' />
-  <img src='https://pbs.twimg.com/media/GOgqwQvXkAAa_KE?format=jpg&name=large' alt='screenshot' />
+  <img src='https://github.com/user-attachments/assets/1475f0dc-a010-403d-819b-d78677367962' alt='screenshot' />
+  <img src='https://github.com/user-attachments/assets/681945a3-df57-4916-9cc1-821a070bf0ff' alt='screenshot' />
 </div>
 <p align="center">
   <a href="https://github.com/No0ne003/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/No0ne003/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
