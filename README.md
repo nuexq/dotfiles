@@ -20,7 +20,7 @@
 - **Text Editor**: [neovim](https://neovim.io/) 
 - **App Launcher**: [rofi](https://davatorium.github.io/rofi/) 
 - **File Manager**: [Yazi](https://github.com/sxyazi/yazi) 
-- **Browser**: [thorium](https://thorium.rocks/) 
+- **Browser**: [zen](https://zen-browser.app/) 
 - **Notification Manager**: [dunst](https://github.com/dunst-project/dunst) 
 - **Colorscheme**: [edo](https://github.com/tnixc/edo)/[catppuccin](https://github.com/catppuccin)
 
