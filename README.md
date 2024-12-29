@@ -15,7 +15,7 @@
 - **OS**: [Arch Linux](https://archlinux.org/) 
 - **WM**: [hyprland](https://hyprland.org/) 
 - **Shell**: [zsh](https://www.zsh.org/) 
-- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/) 
+- **Terminal Emulator**: [ghostty](https://ghostty.org) 
 - **Panel**: [waybar](https://github.com/Alexays/Waybar) 
 - **Text Editor**: [neovim](https://neovim.io/) 
 - **App Launcher**: [rofi](https://davatorium.github.io/rofi/) 
@@ -57,10 +57,10 @@
 | <kbd>Super</kbd> + <kbd>Esc</kbd>                                                                        | Launch lock screen                                   |
 | <kbd>Super</kbd> + <kbd>Backspace</kbd>                                                                  | Launch logout menu                                   |
 | <kbd>Ctrl</kbd> + <kbd>Esc</kbd>                                                                         | Toggle waybar                                        |
-| <kbd>Super</kbd> + <kbd>Return</kbd>                                                                     | Launch terminal emulator (kitty)                     |
-| <kbd>Super</kbd> + <kbd>E</kbd>                                                                          | Launch file manager (dolphin)                        |
-| <kbd>Super</kbd> + <kbd>C</kbd>                                                                          | Launch text editor (vscode)                          |
-| <kbd>Super</kbd> + <kbd>N</kbd>                                                                          | Launch web browser (Thorium)                         |
+| <kbd>Super</kbd> + <kbd>Return</kbd>                                                                     | Launch terminal emulator                             |
+| <kbd>Super</kbd> + <kbd>E</kbd>                                                                          | Launch file manager                                  |
+| <kbd>Super</kbd> + <kbd>C</kbd>                                                                          | Launch text editor                                   |
+| <kbd>Super</kbd> + <kbd>N</kbd>                                                                          | Launch web browser                                   |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd>                                                      | Launch system monitor (htop/btop or fallback to top) |
 | <kbd>Alt</kbd> + <kbd>Space</kbd>                                                                        | Launch application launcher (rofi)                   |
 | <kbd>Super</kbd> + <kbd>Tab</kbd>                                                                        | Launch window switcher (rofi)                        |
@@ -98,4 +98,4 @@
 Big thanks for :
 - [Hyprdots](https://github.com/prasanthrangan/hyprdots/)  for helping me with the startup setup of the Hyprland.
 - [Matt-FTW README](https://github.com/Matt-FTW/dotfiles/) for helping me with ideas for README from her README.
-- [Tnixc](https://github.com/Tnixc/edo) for the edo theme (my zed theme)
+- [Tnixc](https://github.com/Tnixc/edo) for the edo theme
