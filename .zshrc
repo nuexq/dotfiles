@@ -1,5 +1,6 @@
 # varibales
 export EDITOR=nvim
+export TERMINAL=ghostty
 aurhelper="paru"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
