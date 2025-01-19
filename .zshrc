@@ -65,3 +65,7 @@ export NVM_DIR="$HOME/.nvm"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# startup
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+fortune | kittysay
