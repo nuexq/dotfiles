@@ -52,6 +52,7 @@ alias ssh='kitten ssh'
 # alias
 alias tty-clock='tty-clock -c'
 alias cmatrix='cmatrix -b -a -u 5'
+alias fortune='fortune custom'
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
