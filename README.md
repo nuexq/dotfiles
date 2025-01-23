@@ -5,9 +5,9 @@
   <img src='https://github.com/user-attachments/assets/681945a3-df57-4916-9cc1-821a070bf0ff' alt='screenshot' />
 </div>
 <p align="center">
-  <a href="https://github.com/neuxq/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/neuxq/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
- <a href="https://github.com/Matt-FTW/dotfiles"><img alt="Size" src="https://img.shields.io/github/repo-size/neuxq/dotfiles?style=for-the-badge&logo=discord&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41"></a>
-  <a href="https://github.com/Matt-FTW/dotfiles/commits/main/"><img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/m/neuxq/dotfiles/main?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"/></a>
+  <a href="https://github.com/nuexq/dotfiles/commits/"><img src="https://img.shields.io/github/last-commit/nuexq/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+ <a href="https://github.com/Matt-FTW/dotfiles"><img alt="Size" src="https://img.shields.io/github/repo-size/nuexq/dotfiles?style=for-the-badge&logo=discord&color=DDB6F2&logoColor=D9E0EE&labelColor=302D41"></a>
+  <a href="https://github.com/Matt-FTW/dotfiles/commits/main/"><img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/m/nuexq/dotfiles/main?style=for-the-badge&logo=github&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
 
 ## ⚙️ System Info
