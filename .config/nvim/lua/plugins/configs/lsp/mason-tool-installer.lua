@@ -4,9 +4,6 @@ require("mason-tool-installer").setup({
 		"eslint_d",
 		"stylua",
 		"cbfmt",
-		"ruff",
-		"mypy",
-    "black"
 	},
 	auto_update = false,
 	run_on_start = true,
