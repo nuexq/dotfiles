@@ -261,6 +261,7 @@ return {
   },
 
   -- Miscellaneous
+  { 'danilamihailov/beacon.nvim' },
   {
     "rachartier/tiny-glimmer.nvim",
     event = "TextYankPost",
