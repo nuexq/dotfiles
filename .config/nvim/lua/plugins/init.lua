@@ -152,16 +152,6 @@ return {
 		event = "VeryLazy",
 		build = "make",
 	},
-	{
-		"folke/snacks.nvim",
-		priority = 1000,
-		lazy = false,
-		opts = {
-			notifier = {
-				enabled = false,
-			},
-		},
-	},
 
 	-- Editing Helper
 	{
