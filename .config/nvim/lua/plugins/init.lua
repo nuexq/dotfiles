@@ -293,11 +293,11 @@ return {
 		build = ":Cord update",
 		event = "VeryLazy",
 		opts = {
-      display = {
-        theme = "catppuccin",
-        flavor = "accent"
-      }
-    },
+			display = {
+				theme = "catppuccin",
+				flavor = "accent",
+			},
+		},
 	},
 	{
 		"karb94/neoscroll.nvim",
@@ -407,18 +407,15 @@ return {
 			require("rust-tools").setup(opts)
 		end,
 	},
-	{
-		"cordx56/rustowl",
-		dependencies = "neovim/nvim-lspconfig",
-		config = function()
-			local lspconfig = require("lspconfig")
-			lspconfig.rustowlsp.setup({
-				trigger = {
-					hover = false,
-				},
-			})
-		end,
-	},
+	-- {
+	-- 	"cordx56/rustowl",
+	-- 	config = function()
+	-- 		local lspconfig = require("lspconfig")
+	-- 		lspconfig.rustowlsp.setup({
+	-- 			idle_time = 1000,
+	-- 		})
+	-- 	end,
+	-- },
 
 	-- Completion
 	{
