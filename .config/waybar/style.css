@@ -37,7 +37,7 @@ tooltip {
   padding-right: 3px;
   margin-right: 0px;
   color: @fg;
-  /*   animation: ws_normal 20s ease-in-out 1; */
+    animation: ws_normal 20s ease-in-out 1;
 }
 
 #workspaces button.active {
@@ -47,8 +47,8 @@ tooltip {
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 3px;
-  /*   animation: ws_active 20s ease-in-out 1; */
-  /*   transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682); */
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #taskbar button {
@@ -63,7 +63,7 @@ tooltip {
   padding-right: 3px;
   margin-right: 0px;
   color: @color7;
-  /*   animation: tb_normal 20s ease-in-out 1; */
+    animation: tb_normal 20s ease-in-out 1;
 }
 
 #taskbar button.active {
@@ -73,8 +73,8 @@ tooltip {
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 3px;
-  /*   animation: tb_active 20s ease-in-out 1; */
-  /*   transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682); */
+    animation: tb_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #backlight,
