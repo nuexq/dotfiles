@@ -206,11 +206,6 @@ wk.add({
 		{ "K", "<cmd>lua vim.lsp.buf.hover()<cr>", desc = "Show hover information" },
 
 		-- Other
-		-- Compile C/C++ file
-		{ "<A-c>", ":w<CR>:!clang % -o %:r && ./%:r<CR>", { noremap = true, silent = true } },
-
-		{ "<A-k>", "<cmd>m .-2<cr>", desc = "Move line up" },
-		{ "<A-j>", "<cmd>m .+1<cr>", desc = "Move line down" },
 		{
 			group = "Other",
 			{ "<leader>d", desc = "Other" },
