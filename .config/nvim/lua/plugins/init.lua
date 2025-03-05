@@ -284,7 +284,7 @@ return {
 		event = "VeryLazy",
 		opts = {
 			display = {
-				theme = "catppuccin",
+				theme = "default",
 				flavor = "accent",
 			},
 		},
