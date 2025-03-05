@@ -4,6 +4,7 @@ require("mason-tool-installer").setup({
 		"eslint_d",
 		"stylua",
 		"cbfmt",
+		"prettier",
 	},
 	auto_update = false,
 	run_on_start = true,

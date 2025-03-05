@@ -177,6 +177,13 @@ return {
 		config = function()
 			require("nvim-ts-autotag").setup({})
 		end,
+		opts = {
+			per_filetype = {
+				["astro"] = {
+					enable = true,
+				},
+			},
+		},
 	},
 	{
 		"Wansmer/treesj",
