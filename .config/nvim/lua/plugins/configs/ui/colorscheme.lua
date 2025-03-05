@@ -1,5 +1,5 @@
 require("catppuccin").setup({
-  flavour = "mocha",
+  flavour = "machiato",
 	integrations = {
 		diffview = true,
 		mason = true,
