@@ -12,6 +12,6 @@ require("mason-lspconfig").setup({
 		"yamlls", -- YAML LSP
 		"marksman", -- Markdown LSP
 		"wgsl_analyzer", -- wgsl-analyzer
-		"astro-language-server", -- Astro LSP
+		"astro", -- Astro LSP
 	},
 })
