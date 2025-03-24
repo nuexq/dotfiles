@@ -2,7 +2,17 @@ local null_ls = require("null-ls")
 null_ls.setup({
 	sources = {
 		null_ls.builtins.formatting.stylua,
-		null_ls.builtins.formatting.biome,
+		null_ls.builtins.formatting.biome.with({
+			args = {
+				"check",
+				"--write",
+				"--unsafe",
+				"--formatter-enabled=true",
+				"--organize-imports-enabled=true",
+				"--skip-errors",
+				"--stdin-file-path=$FILENAME",
+			},
+		}),
 		null_ls.builtins.formatting.cbfmt,
 		null_ls.builtins.formatting.clang_format.with({
 			filetypes = { "c", "cpp", "cc", "cxx", "h", "hpp" },
